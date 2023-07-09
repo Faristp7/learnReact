@@ -1,3 +1,5 @@
 export function Profile(Props) {
-  return <h1>hello {Props.name}</h1>;
+  const {name , no} = Props
+
+  return <h1>hello {name} {no} </h1>;
 }

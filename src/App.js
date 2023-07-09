@@ -1,10 +1,10 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import Conditional from "./components/ConditionalComponent";
 
 function App() {
   return (
-    <div className="App">
-     <Counter/>
+    <div className="text-center mt-10">
+      <Conditional/>
     </div>
   );
 }
