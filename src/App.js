@@ -1,10 +1,11 @@
 import "./App.css";
-import Conditional from "./components/ConditionalComponent";
+import { FunctionalCounter } from "./components/FunctionalCounter";
 
 function App() {
   return (
-    <div className="text-center mt-10">
-      <Conditional/>
+    <div className="mt-10">
+      <FunctionalCounter button="plus" buttonDec="minus" id={["faris", "mariya"]}/>
+      {/* <FunctionalCounter button="increment" buttonDec="decrement" id={["addam", "mariya"]}/> */}
     </div>
   );
 }
